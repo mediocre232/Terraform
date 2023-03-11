@@ -12,3 +12,4 @@ resource "aws_instance" "myec2" {
 
 
 #documentation https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance 
+#terraform init #terraform plan
