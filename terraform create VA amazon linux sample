@@ -1,0 +1,14 @@
+provider "aws" {
+  region = "us-east-1"
+  access_key = ""
+  secret_key = ""
+}
+
+resource "aws_instance" "myec2" {
+   ami = "ami-005f9685cb30f234b"
+   instance_type = "t2.micro"
+}
+
+
+
+#documentation https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance 
