@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "us-west-2"
-  access_key = "AKIASORHNH5FVPFZBZOP"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 
@@ -10,3 +10,5 @@ resource "aws_instance" "instance-1" {
    instance_type = "t2.micro"
    count = 3
 }
+
+#efficiently create 3 instances with count parameter 
